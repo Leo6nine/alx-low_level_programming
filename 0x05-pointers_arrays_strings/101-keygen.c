@@ -16,7 +16,8 @@ int main(void)
 		r = rand() % 128;
 		if ((c + r) > 2772)
 			break;
-		c = c + r;
+		else
+			c = c + r;
 		printf("%c", r);
 	}
 	printf("%c\n", (2772 - c));
