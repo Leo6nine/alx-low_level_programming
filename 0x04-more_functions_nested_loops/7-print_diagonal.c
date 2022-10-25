@@ -5,7 +5,7 @@
  * @n: num of times
  */
 
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
 	int a, b;
 
