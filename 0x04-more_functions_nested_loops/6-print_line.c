@@ -3,7 +3,7 @@
  * print_line - Print a straiht line
  * @n: Num of '_'
  */
-void print_line(int n);
+void print_line(int n)
 {
 	int line;
 
