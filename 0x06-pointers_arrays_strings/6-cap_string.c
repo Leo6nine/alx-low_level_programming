@@ -6,6 +6,7 @@
  * Return: pointer to string
  */
 
+
 char *cap_string(char *str)
 {
 	int i = 0, j;
@@ -30,7 +31,7 @@ char *cap_string(char *str)
 				}
 			}
 		}
-		i++
+		i++;
 	}
 	return (str);
 }
