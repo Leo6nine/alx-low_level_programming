@@ -47,5 +47,5 @@ int is_palindrome(char *s)
 
 	if (!(*s))
 		return (1);
-	return (if_palindrome(s, i, j);
+	return (if_palindrome(s, i, j));
 }
