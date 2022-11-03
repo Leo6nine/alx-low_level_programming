@@ -30,7 +30,7 @@ int if_palindrome(char *s, int i, int j)
 {
 	if (s[j] == s[i / 2])
 		return (1);
-	if ([j] == s[i - j - 1])
+	if (s[j] == s[i - j - 1])
 		return (if_palindrome(s, i, j + 1));
 	return (0);
 }
@@ -47,5 +47,5 @@ int is_palindrome(char *s)
 
 	if (!(*s))
 		return (1);
-	return (if_palindrome(s, i, j));
+	return (if_palindrome(s, i, j);
 }
