@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strdup - a function to returns a pointer to a newly allocated space in memory.
+ * _strdup - to returns a pointer to a newly allocated space in memory.
  * @str: string
  * Return: pointer of an array of chars
  */
@@ -20,6 +20,6 @@ char *_strdup(char *str)
 		return (NULL);
 
 	for (y = 0; y <= x; y++)
-	       strout[y] = str[y];
+		strout[y] = str[y];
 	return (strout);
-}	
+}
