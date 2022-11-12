@@ -28,7 +28,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (dex = 0; s1[dex]; dex++)
 		conc[i++] = s1[dex];
 	for (dex = 0; s2[dex] && dex < n; dex++)
-		conc[i++] = s2[dex];
+		conc[i++] = s2
+			[dex];
 
 	concat[i] = '\0';
 	return (conc);
